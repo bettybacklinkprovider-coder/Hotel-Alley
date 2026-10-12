@@ -42,8 +42,9 @@ export const HomePage: React.FC = () => {
         {/* Cinematic Real Background Image with dark blue + red overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=2000&q=90"
-            alt="Hotel Alley Hua Hin Real Luxury Exterior"
+            src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2000&q=85"
+            alt="Hotel Alley Hua Hin Luxury Exterior at Twilight"
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center scale-100"
           />
           {/* Dark Blue Overlay with Subtle Red Ambient Lighting */}
@@ -125,7 +126,8 @@ export const HomePage: React.FC = () => {
               <div className="relative rounded-sm overflow-hidden border border-[#263A52] shadow-2xl group">
                 <img
                   src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
-                  alt="Hotel Alley Hua Hin Welcoming Interior Lounge"
+                  alt="Hotel Alley Hua Hin Welcoming Pool Courtyard"
+                  referrerPolicy="no-referrer"
                   className="w-full h-[380px] sm:h-[460px] object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#071426]/70 via-transparent to-transparent" />
@@ -220,6 +222,7 @@ export const HomePage: React.FC = () => {
                     <img
                       src={room.image}
                       alt={room.name}
+                      referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D35] via-transparent to-transparent opacity-80" />
@@ -290,6 +293,7 @@ export const HomePage: React.FC = () => {
           <img
             src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=85"
             alt="Real Hua Hin Coastal Atmosphere Background"
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-25 filter contrast-125"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#071426] via-[#0B1D35]/85 to-[#071426]" />
@@ -334,6 +338,7 @@ export const HomePage: React.FC = () => {
                       <img
                         src={exp.image}
                         alt={exp.title}
+                        referrerPolicy="no-referrer"
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#071426] via-[#071426]/40 to-transparent" />
@@ -407,6 +412,7 @@ export const HomePage: React.FC = () => {
                   <img
                     src={item.image}
                     alt={item.title}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#071426] via-[#071426]/40 to-transparent" />
@@ -445,6 +451,7 @@ export const HomePage: React.FC = () => {
           <img
             src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=2000&q=85"
             alt="Real Hua Hin Coastal Sunset"
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-20 filter saturate-150"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#071426]/90 via-[#071426]/75 to-[#071426]" />

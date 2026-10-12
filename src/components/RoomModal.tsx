@@ -56,6 +56,7 @@ export const RoomModal: React.FC<RoomModalProps> = ({ room, onClose }) => {
           <img
             src={room.image}
             alt={room.name}
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D35] via-[#0B1D35]/30 to-transparent" />

@@ -35,6 +35,7 @@ export const RoomsPage: React.FC = () => {
           <img
             src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=2000&q=85"
             alt="Hotel Alley Luxury Rooms Banner"
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#071426] via-[#071426]/75 to-[#071426]/60" />
@@ -118,6 +119,7 @@ export const RoomsPage: React.FC = () => {
                 <img
                   src={room.image}
                   alt={room.name}
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B1D35]/80 via-transparent to-transparent lg:hidden" />

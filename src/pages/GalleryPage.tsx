@@ -132,6 +132,7 @@ export const GalleryPage: React.FC = () => {
                   src={item.imageUrl}
                   alt={item.title}
                   loading="lazy"
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                 />
 

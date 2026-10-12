@@ -51,9 +51,9 @@ export const FEATURED_ROOMS: RoomCategory[] = [
     fullDescription:
       'The Deluxe Room at Hotel Alley blends contemporary coastal elegance with rich wooden accents and refined dark navy textures. Designed for discerning guests who appreciate quiet sophistication, this room category provides a relaxing retreat with sample premium bedding, a dedicated seating corner, and a modern en-suite bath.',
     image:
-      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80',
     galleryImages: [
-      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
     ],
     capacity: '2 Guests',
@@ -212,7 +212,7 @@ export const HOTEL_EXPERIENCES = [
     icon: 'Sparkles',
     highlight: 'Curated Serenity',
     image:
-      'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80',
     link: '/rooms',
   },
   {
@@ -222,7 +222,7 @@ export const HOTEL_EXPERIENCES = [
     icon: 'Compass',
     highlight: 'Prime Coastal Location',
     image:
-      'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80',
     link: '/gallery',
   },
   {
@@ -232,7 +232,7 @@ export const HOTEL_EXPERIENCES = [
     icon: 'HeartHandshake',
     highlight: 'Heartfelt Hospitality',
     image:
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80',
     link: '/contact',
   },
 ];
@@ -271,29 +271,29 @@ export const HUA_HIN_HIGHLIGHTS = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'gal-1',
-    title: 'Hotel Alley Courtyard & Dusk Atmosphere',
+    title: 'Hotel Alley Grand Twilight Exterior',
     category: 'Hotel Atmosphere',
     imageUrl:
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
-    caption: 'Evening calm descending upon the tranquil hotel grounds with warm golden illuminations.',
+      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Evening architectural glow highlighting Hotel Alley with serene reflecting waters and tropical palms.',
     aspect: 'landscape',
   },
   {
     id: 'gal-2',
-    title: 'Welcoming Guest Reception Lounge',
-    category: 'Hotel Interiors',
+    title: 'Boutique Courtyard Pool Lounge',
+    category: 'Hotel Atmosphere',
     imageUrl:
       'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80',
-    caption: 'Sophisticated lobby interior designed with dark woods, plush seating, and warm hospitality.',
+    caption: 'Crystal-clear pool flanked by luxury sunbeds, lush tropical gardens, and warm ambient lantern lighting.',
     aspect: 'landscape',
   },
   {
     id: 'gal-3',
-    title: 'Deluxe Suite Sleeping Quarters',
+    title: 'Luxury Suite & Master Bedroom',
     category: 'Rooms & Suites',
     imageUrl:
-      'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80',
-    caption: 'Crisp linens, gentle mood illumination, and cozy elegance designed for restful sleep.',
+      'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Crisp linens, gentle mood illumination, dark wood finishes, and cozy coastal luxury.',
     aspect: 'landscape',
   },
   {
@@ -334,11 +334,11 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'gal-8',
-    title: 'Evening Lounge & Refreshment Corner',
+    title: 'Tranquil Spa & Relaxation Lounge',
     category: 'Hotel Interiors',
     imageUrl:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80',
-    caption: 'An intimate setting to enjoy evening refreshments or unwind with quiet conversation.',
+      'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Soft ambient candlelight, river stone water features, and calming loungers crafted for quiet serenity.',
     aspect: 'landscape',
   },
   {

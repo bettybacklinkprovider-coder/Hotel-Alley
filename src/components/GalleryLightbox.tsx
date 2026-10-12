@@ -108,6 +108,7 @@ export const GalleryLightbox: React.FC<GalleryLightboxProps> = ({
           <img
             src={currentItem.imageUrl}
             alt={currentItem.title}
+            referrerPolicy="no-referrer"
             className="w-auto h-auto max-w-full max-h-[70vh] object-contain select-none"
           />
         </div>
