@@ -1,0 +1,7 @@
+{
+  "name": "Hotel Alley - Luxury Hotel Hua Hin",
+  "description": "Experience refined luxury and coastal tranquility at Hotel Alley in Hua Hin, Thailand. Featuring bespoke suites, curated gallery, and personalized hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
